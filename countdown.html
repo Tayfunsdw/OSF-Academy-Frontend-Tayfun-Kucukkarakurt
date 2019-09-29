@@ -13,7 +13,110 @@
   <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
   <link rel="stylesheet" href="assets/css/global.css" />
   <link rel="stylesheet" href="assets/css/responsive.css" />
-  <link rel="stylesheet" href="assets/css/countdown.css">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f2eded;
+      overflow-x: hidden !important;
+    }
+
+    .container-timer {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #timer {
+      color: #4d4d4d;
+      font-size: 2.7rem;
+      font-weight: 700;
+      position: relative;
+      top: 24rem;
+    }
+
+    .box {
+      background-color: #fff;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 3.5rem;
+      height: 40rem;
+      width: 92%;
+    }
+
+    .box h1 {
+      position: relative;
+      font-size: 2.5rem;
+      top: 2rem;
+      left: 19rem;
+      padding-top: .5rem;
+      padding-bottom: .5rem;
+    }
+
+    .texts {
+      position: relative;
+      top: 1.7rem;
+      left: 1rem;
+      text-align: center;
+    }
+
+    .text-1 {
+      position: relative;
+      top: 23.8rem;
+      left: 28.2rem;
+    }
+
+    .text-2 {
+      position: relative;
+      top: 23.8rem;
+      left: 32.2rem;
+    }
+
+    .text-3 {
+      position: relative;
+      top: 23.8rem;
+      left: 35.7rem;
+    }
+
+    .text-4 {
+      position: relative;
+      top: 23.8rem;
+      left: 38.7rem;
+    }
+
+    input {
+      width: 46%;
+      position: relative;
+      top: 22rem;
+      left: 19rem;
+      border: 1px solid #DCDCDC;
+      border-radius: 2rem;
+      padding: .4rem;
+    }
+
+    i {
+      position: relative;
+      top: 22rem;
+      left: 17rem;
+    }
+
+    .label {
+      font-size: 2.5rem;
+      padding-left: 0.25rem;
+    }
+
+    .timer-element {
+      border: 3px solid #85bc22;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 100px;
+      height: 100px;
+    }
+  </style>
 
   <title>Countdown-Timer</title>
 </head>
@@ -396,7 +499,7 @@
               <a class="nav-link" href="javascript:;" data-toggle="modal" data-target="#loginModal">
                 <img src="assets/images/user-icon-white.svg" alt="user-icon-white" />
               </a>
-         
+
             </li>
             <li>
               <a href="javascript:;">
@@ -421,10 +524,11 @@
   </footer>
 
 
-  <!-- cookies modal layout start --> <!--cookiesModal from JavaScript -->
+  <!-- cookies modal layout start -->
+  <!--cookiesModal from JavaScript -->
   <div class="modal fade bd-example-modal-xl cookiesModal" tabindex="-1" role="dialog"
     aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl"> 
+    <div class="modal-dialog modal-xl">
       <div class="modal-content">
         <button type="button" class="close close-bar" data-dismiss="modal" aria-label="Close">
           <img src="assets/images/close-bar.svg" alt="close-bar" />
